@@ -1,6 +1,9 @@
 from media import Movie
 import fresh_tomatoes
 
+# This script instantiates Movie objects and uses them to create a website
+# by calling fresh_tomatoes.open_movies_page
+
 # Instantiate Movie objects here
 star_wars = Movie("SW: The Force Awakens",
                   "poster_images/star_wars.jpg",
@@ -26,7 +29,7 @@ inception = Movie("Inception",
                   "poster_images/inception.jpg",
                   "https://www.youtube.com/watch?v=8hP9D6kZseM")
 
-# Create movie list
+# Store Movie objects in a list
 movie_list = [star_wars,
               lord_of_the_rings,
               wall_e,
